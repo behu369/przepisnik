@@ -1,4 +1,26 @@
 # przepisnik
-ksiazka kucharska online
-<br> vvvvaa
-xcxx
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250" />
+<style type="text/css">
+     
+      @import url(css/dark-style.css);
+     
+    </style>
+
+
+
+<!-- panel logowania -->
+<div id="panel">
+<form>
+<label for="username">Nazwa użytkownika:</label>
+<input type="text" id="username" name="username">
+<label for="password">Hasło:</label>
+<p><a href="#">Zapomniałeś hasła?</a></p>
+<input type="password" id="password" name="password">
+<div id="lower">
+<input type="checkbox"><label class="check" for="checkbox">Zapamiętaj mnie!</label>
+<input type="submit" value="Login">
+</div>
+</form>
+</div> 
